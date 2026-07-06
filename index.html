@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>[HO4] CSS Framework + JS Library</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main class="page">
+		<section class="hero">
+			<h1>Machine Project Charts</h1>
+			<p class="subtitle">by Asia Teo of S16 Term 3</p>
+		</section>
+
+		<section class="grid">
+			<article class="card">
+				<div class="card-header">
+					<div>
+						<h2>Roommate compatibility factors</h2>
+					</div>
+				</div>
+				<div class="bar-chart" id="compatibilityChart"></div>
+			</article>
+
+			<article class="card">
+				<div class="card-header">
+					<div>
+						<h2>Occupancy / slots filled</h2>
+					</div>
+					</div>
+				</div>
+				<div class="donut-wrap">
+					<div class="donut">
+						<div class="donut-center">
+							<div>
+								<strong>113</strong>
+								<span>Total listings</span>
+							</div>
+						</div>
+					</div>
+					<div class="legend" id="occupancyLegend"></div>
+				</div>
+			</article>
+
+			<article class="card full">
+				<div class="card-header">
+					<div>
+						<h2>Listings per university</h2>
+					</div>
+				</div>
+				<div class="pie-wrap">
+					<div class="pie-chart" id="universityPie"></div>
+					<div class="pie-legend" id="universityPieLegend"></div>
+				</div>
+			</article>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
